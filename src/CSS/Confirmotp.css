@@ -1,0 +1,55 @@
+.confirm {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.confirmmain {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    /* background-color: blue; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.confirmfirst {
+    width: 70%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.confirmfirst span {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    border: 1px solid rgb(83,47,130);
+    border-radius: 5px;
+    background-color: rgb(197, 197, 197);
+}
+
+.confirmmain span {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130);
+}
+
+.confirmmain button {
+    width: 80%;
+    height: 8vh;
+    border-radius: 5px;
+    border: none;
+    background-color:  rgb(83,47,130);
+    color:rgb(255, 255, 255) ;
+}
+
+.myps {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130);
+}

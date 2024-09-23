@@ -1,0 +1,172 @@
+.business1 {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.business1 h2 {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83,47,130);
+}
+
+.business1 span {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83,47,130);
+}
+
+.basics {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252,250,255);
+    gap: 3%;
+}
+
+.basiccard {
+    width: 25%;
+    height: 90%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    gap: 1.5%;
+    border-radius: 5px;
+}
+
+.basiccard span {
+    color:  rgb(83,47,130);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.basiccard h2 {
+    color:  rgb(83,47,130);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.basiccard button {
+    height: 8vh;
+    border-radius: 5px;
+    outline: none;
+    color: whitesmoke;
+    background-color: rgb(83,47,130) ;
+}
+
+.featuremain {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    background-color:  rgb(252,250,255);
+    align-items: center;
+    justify-content: center;
+}
+
+.feat {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.feat h2 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130);
+}
+
+.firstone {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    /* background-color: red; */
+    gap: 5%;
+}
+
+.firstfirst {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+
+.firstfirst span {
+    width: 100%;
+    height: 70vh;
+    /* background-color: bisque; */
+}
+
+.firstfirst h3 {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130);
+}
+
+.secondfirst {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondbit {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+}
+
+.secondbit span {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130);
+}
+
+.secondbit button {
+    height: 50%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(83,47,130);
+    color: whitesmoke;
+}
+
+.final {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+    background-color: white;
+}
+
+.final span {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color:  rgb(83,47,130);
+}
+
+.final p {
+    width: 22%;
+    height: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: center;
+    color:  rgb(83,47,130);
+
+}

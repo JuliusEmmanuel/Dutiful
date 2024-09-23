@@ -1,0 +1,208 @@
+.herosection {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.herosec {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.hero1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.hero1 h2 {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130) ;
+}
+
+.hero1 span {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130);
+}
+
+.hero2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.hero2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.herosec2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    /* flex-direction: column; */
+    margin-bottom: 30px;
+}
+
+.herosec3 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.hero25 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero25in {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.this {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    object-fit: cover;
+}
+
+.hero25out {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.hero25out span {
+    width: 50%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+
+}
+
+.herosec4 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.herosec41 {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.list {
+    width: 40%;
+    height: 90%;
+    background-color: rgb(83,47,130) ;
+    border-radius: 5px;
+    position:relative;
+}
+
+.list img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: 75px;
+}
+
+.card {
+    width: 57%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+.card1 {
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    /* padding-left: 10px; */
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card1 h2 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130)  ;
+} 
+
+.card1 span {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130) ;
+}
+
+.card2 {
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    /* padding-left: 10px; */
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    right: 80px;
+}
+
+.card2 h2 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130)  ;
+} 
+
+.card2 span {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(83,47,130) ;
+}

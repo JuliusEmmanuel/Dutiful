@@ -1,0 +1,136 @@
+.get {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(83,47,130);
+    align-items: center;
+    position: absolute;
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+
+.get h2 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+.get span {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.contact {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+.concat {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 140px;
+    /* background-color: red; */
+}
+
+.concard {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.concard span {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83,47,130);
+}
+
+.concard p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83,47,130);
+
+}
+
+.conform {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.confill {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+    /* gap: 1%; */
+}
+
+.fill {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.fill span {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83,47,130);
+}
+
+.fill input {
+    /* width: 100%; */
+    height: 40%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(83,47,130);
+}
+
+.message {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    /* background-color: red; */
+}
+
+.message span {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(83,47,130);
+}
+
+.message input {
+    /* width: 100%; */
+    height: 90%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(83,47,130);
+}
+
+.confill button {
+    margin-top: 30px;
+    height: 10%;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-color:  rgb(83,47,130) ;
+}
